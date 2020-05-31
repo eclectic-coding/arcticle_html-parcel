@@ -2,9 +2,20 @@
   "name": "article_html-parcel",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/eclectic-coding/article_html-parcel",
   "author": {
     "name": "Chuck Smith",
     "email": "chuck@eclecticsaddlebag.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html --port 3000 --open",
+    "dev": "npm run clean && npm run start",
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf ./.cache ./dist"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "parcel": "^1.12.4"
+  }
 }
