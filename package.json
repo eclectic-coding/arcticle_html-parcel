@@ -15,7 +15,7 @@
     "clean": "rm -rf ./.cache ./dist"
   },
   "devDependencies": {
-    "node-sass": "^7.0.3",
+    "node-sass": "^8.0.0",
     "parcel": "^2.8.0"
   }
 }
